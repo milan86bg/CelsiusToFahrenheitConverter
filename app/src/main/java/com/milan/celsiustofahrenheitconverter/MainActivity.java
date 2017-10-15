@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Toast.makeText(getApplicationContext(), "Please enter Celsius or Fahranheit value", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Please enter Celsius or Fahrenheit value", Toast.LENGTH_SHORT).show();
                         }
                     });
                     alertDialog.show();
