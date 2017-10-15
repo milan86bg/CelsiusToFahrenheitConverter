@@ -9,16 +9,14 @@
     tools:context="com.milan.celsiustofahrenheitconverter.MainActivity">
 
     <EditText
-        android:id="@+id/editTextFahrenheit"
+        android:id="@+id/editTextCelsius"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textViewFahrenheit"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_toEndOf="@+id/textViewFahrenheit"
-        android:layout_toRightOf="@+id/textViewFahrenheit"
+        android:layout_alignBottom="@+id/textViewCelsius"
+        android:layout_alignEnd="@+id/editTextFahrenheit"
+        android:layout_alignLeft="@+id/editTextFahrenheit"
+        android:layout_alignRight="@+id/editTextFahrenheit"
+        android:layout_alignStart="@+id/editTextFahrenheit"
         android:ems="10"
         android:inputType="numberDecimal|numberSigned"
         android:textSize="20sp"/>
@@ -51,17 +49,20 @@
         android:textStyle="bold"/>
 
     <EditText
-        android:id="@+id/editTextCelsius"
+        android:id="@+id/editTextFahrenheit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textViewCelsius"
-        android:layout_alignEnd="@+id/editTextFahrenheit"
-        android:layout_alignLeft="@+id/editTextFahrenheit"
-        android:layout_alignRight="@+id/editTextFahrenheit"
-        android:layout_alignStart="@+id/editTextFahrenheit"
+        android:layout_alignBottom="@+id/textViewFahrenheit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_toEndOf="@+id/textViewFahrenheit"
+        android:layout_toRightOf="@+id/textViewFahrenheit"
         android:ems="10"
         android:inputType="numberDecimal|numberSigned"
         android:textSize="20sp"/>
+
 
     <Button
         android:id="@+id/convertButton"
