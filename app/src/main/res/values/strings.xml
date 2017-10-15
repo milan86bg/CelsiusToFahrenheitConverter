@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Celsius to  Fahrenheit Converter</string>
+    <string name="celsius_text">Celsius (°C)</string>
+    <string name="fahrenheit_text">Fahrenheit (°F)</string>
+    <string name="convert_button_text">CONVERT</string>
+    <string name = "clear_button_text">CLEAR</string>
+</resources>
